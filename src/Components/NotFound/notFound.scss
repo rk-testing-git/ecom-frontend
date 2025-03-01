@@ -1,0 +1,24 @@
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found p {
+  font-size: 20px;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.not-found {
+  text-align: center;
+  transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth fade effect */
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.8); /* Shrinks smoothly */
+}
